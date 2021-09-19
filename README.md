@@ -1,6 +1,3 @@
-<script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"> <script>
-
 # Equações diferenciais elementares em Julia
 
 ODEs, PDEs e sistemas de equações diferencias do livro Equações Diferencias Elementares e Problemas de Valores de Contoro do William Boyce e Richard DiPrima em Julia
