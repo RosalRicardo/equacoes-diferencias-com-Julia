@@ -1,0 +1,27 @@
+---
+title: Demo Weave document
+author: Ricardo Rosal
+date: 2021-09-26
+---
+
+# O que é markdown?
+
+A simple way to specify how text should look like. *it can be italy* or **or bold** or ***both***.
+
+
+1. It can have lists
+    - list can begin;\
+    - nested
+1. It can have other things too
+
+> Like quotations
+
+And mathematics, $f(x) = x^2$.
+
+##This is a subtitle: whats is Julia markdown?
+
+A way to have *code* in addition to text, and to *run* this code as part of the text.
+
+```Julia
+f = (x) -> x^2
+```

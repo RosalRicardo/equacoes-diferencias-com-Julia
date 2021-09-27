@@ -1,0 +1,18 @@
+# Modelagem e equações diferencias
+
+1. Conteudos abordados
+    - porque modelagem matematica?
+    - exemplos intuitivos
+    - Ciclo de modelagam
+    - crescimento populacional
+
+## Porque modelos matematicos
+
+Os modelos matematicos existem que possamos simular fenomenos que são dificeis de estudar no mundo "real". um modelo matematica é por definição não tangivel, e sim teorico, é a representação de um fenomeno da vida real em formulas matematicas. E então essas equações são resolvidas para que possamos simular o fenomeno de interesse, varias seus parametros livremente e observar seu comportamento.
+Porem antes de fazer temos que pensar porque estamos fazendo esse modelo?
+
+## Ciclo de modelagem
+
+observação do entorno para identificação de problemas, podem ser problemas sociais, naturais ou até mesmo metafisicos, apos a identificação do problema é o momento de definição das equações matematicas que descrevem o problema, muitas vezes essas equações e formulas ja estão estão prontas, porem nem sempre isso é verdade, essa formulas por você que desenvolve o modelo, usando a notação lógica e matematica, para descrever relações proporcionais com o produto de parametros, incertezas com distribuições de probabilidade tendencias e taxas de variação com derivadas e assim por diante.
+
+Depois de formular as equações e combina-las, as equações precisam ser resolvidos, nesse passo é muito importante o dominio de uma linguagem de programação cientifica para solução dos problemas, isso não é uma regra porem a grande maioria dos problemas relevantes para a sociedade são bastante complexos e uma solução analitica não seria viavel. Após a solução das equações se faz necessario uma validação do modelo em comparação com o sistema real, e caso os resultados não representem de forma satisfatório o sistema real, deve-se voltar ao passo anterior e rever a formulação das equações matematicas.
