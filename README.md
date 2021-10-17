@@ -4,7 +4,7 @@ ODEs, PDEs e sistemas de equações diferencias do livro Equações Diferencias 
 
 Equações no capitulo 01
 * queda livre
-    \\[ \frac{dv}{dt} = 9.8 - \frac{v}{5}\\]
+    $\frac{dv}{dt} = 9.8 - \frac{v}{5}$
 * população de ratos do campo e corujas
 * circuito RLC (Resistencia, Indutância e Capacitância)
 * pendulo (equação não linear)

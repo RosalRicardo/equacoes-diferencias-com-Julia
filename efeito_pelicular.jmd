@@ -1,0 +1,50 @@
+# Efeito Pelicular
+
+Em circuitos de corrente alternada a corrente tende à superfíciedo condutor em altas frequências. Este fato pode ser verificado a partir do raciocínio acima podendo ser provado em virtude de uma análise das equações de Maxwell. As exemplificando em um condutor filamentar com sentido de condução unidimensional, pode-se definir o efeito pelicular. Supondo que em um fio condutor se aplica uma corrente alternada, portanto variante no tempo, pela lei de Ampere, tem-se um campo magnético rotacional H associado.
+
+$\nabla\times\textbf{H} = \textbf{J} + \frac{\partial \textbf{D}}{\partial t}$
+
+Na qual também há variação da sua intensidade em função do tempo. Conforme a lei de Faraday, esse campo magnético variante no tempo induz um campo elétrico rotacional.
+
+$\nabla\times\textbf{E} = - \frac{\partial \textbf{B}}{\partial t}$
+
+Esse campo elétrico orienta as cargas do condutor e, de acordo com a lei de Lenz, o campo varia em sentido oposto ao da corrente filamentar unidimensional de forma que tende a diminuir a intensidade da corrente elétrica no centro do condutor e aumentar esta corrente nas extremidades do condutor, definido assim o efeito pelicular, também conhecido como skin effect.
+
+## Modelagem do fenômeno
+
+Inicialmente, serão adotadas algumas premissas ideais para a modelagem matemática do efeito pelicular considerando um meio que incialmente não possui cargas, ou seja, a densidade de carga nula reduz a primeira equação de Maxwell, lei de Gauss, na seguinte relação.
+
+$\nabla\cdot\mathbf{D} = 0$
+
+O deslocamento será considerado para um meio homogêneo, isotrópico e linear e que nesse caso pode ser descrito em função do campo elétrico proporcional à permissividade elétrica do meio.
+
+$\mathbf{D} = \epsilon\mathbf{E}$
+
+Em virtude de analisar o campo magnético associado à corrente no condutor, trataremos sua intensidade pela relação abaixo.
+
+$\mathbf{H} = \frac{\mathbf{B}}{\mu0}$
+
+Substituindo a equação acima na lei de Ampere, temos a equação abaixo.
+
+$\nabla\times\textbf{B} = \textbf{J} + \frac{\partial \textbf{D}}{\partial t}$
+
+Aplica-se o rotacional na lei de Faraday a fim de analisar o comportamento da variação do campo elétrico em virtude do campo magnético gerado pela corrente e, consequentemente, a variação da densidade de corrente que ocorre no condutor em função do raio do condutor exclusivamente.
+
+$\nabla\times(\nabla\times\textbf{E}) = - \frac{\partial (\nabla\times\textbf{B})}{\partial t}$
+
+Pela propriedade do cálculo vetorial que diz que o rotacional do rotacional de um campo vetorial é igual ao gradiente da divergência do mesmo campo vetorial menos o laplaciano desse campo, a equação acima fica reduzia a:
+
+$\nabla(\nabla\cdot\textbf{E})-\nabla^2\textbf{E}= -\frac{\partial (\mu0\textbf{J})}{\partial t}$
+
+Recordando a primeira premissa que assumimos de inicialmente não haver densidade de carga, portanto, a divergência do campo elétrico é nula. Consequentemente, o gradiente deste campo também será nulo.
+
+$\nabla^2\textbf{E} = \frac{\partial(\mu0\textbf{J})}{\partial t}$
+
+Pela lei de Ohm na forma pontual, sabe-se que o campo elétrico é igual a densidade de corrente vezes uma constante de proporcionalidade que é a resistividade do condutor que pode ser lido como, quando uma diferença de potencial em um condutor aplica um campo elétrico nele, surge uma densidade de corrente proporcional à resistividade do condutor. Assim, o campo elétrico no modelo até então será substituído pela densidade de corrente vezes a resistividade do condutor para maior coerência na análise do efeito pelicular.
+
+$\textbf{E} = \rho\textbf{J}$
+
+$\rho\nabla^2\textbf{J} = \mu0\frac{\partial\textbf{J}}{\partial t}$
+
+Assumiremos então o modelo acima para descrever o efeito pelicular, pois pode ser lido como uma corrente que varia no tempo gera uma corrente que varia espacialmente no condutor onde a constante da permeabilidade magnética expressa a proporcionalidade do campo magnético à corrente em função das dimensões do condutor. Nesse caso, em função da variação dimensional do raio do condutor e a resistividade expressa a proporcionalidade da corrente em virtude das propriedades condutivas do condutor.
+Porém, é útil utilizar da premissa de que o sinal de corrente implantando no circuito por uma diferença de potencial é provinda de uma fonte de alimentação harmônica no tempo e que alimenta uma carga puramente resistiva, ou seja, linear, temse um sinal de corrente também harmônico no tempo.
